@@ -1,2 +1,3 @@
 # Bulldozer-price-predictor
-Python Libraries Used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn and os. | Description: Used RandomForestRegressor in the scikit-learn library to predict the sale prices of bulldozers in the future(time-series data))
+Python Libraries Used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn and os. | Description: Used RandomForestRegressor in the scikit-learn library to predict the sale prices of bulldozers in the future (time-series problem). The target was to minimise the the root mean square log error (RMSLE). The target was sucsessfully achieved with an R^2 score (or accuracy) of 88% on the testing data. Used feature engineering to deal with missing data using Imputation, OnHotEncoding etc. RandomSearchCV and GridSearchCV techniques were used to tune the hyper-parameters, hence optimising the metrics. |
+Link to the orignal dataset: https://www.kaggle.com/code/rambomind/bulldozer-price-prediction/data
